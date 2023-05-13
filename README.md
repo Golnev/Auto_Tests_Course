@@ -1,2 +1,2 @@
 # Auto Tests Course
-https://stepik.org/course/575/
+<a href="https://stepik.org/course/575/" target="blank">Ссылка на курс Stepic
