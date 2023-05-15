@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from source import logs_for_test_auth
+from source import logs
 
 
 link = 'https://stepik.org/lesson/236895/step/1'
@@ -18,8 +18,8 @@ def log_in_stepic(browser):
     )
     login_button.click()
 
-    browser.find_element(By.ID, 'id_login_email').send_keys(logs_for_test_auth.login)
-    browser.find_element(By.ID, 'id_login_password').send_keys(logs_for_test_auth.password)
+    browser.find_element(By.ID, 'id_login_email').send_keys(logs.login)
+    browser.find_element(By.ID, 'id_login_password').send_keys(logs.password)
 
     browser.find_element(By.CSS_SELECTOR, 'button.sign-form__btn').click()
 
