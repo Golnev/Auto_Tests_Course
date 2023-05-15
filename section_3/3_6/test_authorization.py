@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import logs_for_test_auth
+from source import logs_for_test_auth
 
 
 link = 'https://stepik.org/lesson/236895/step/1'
