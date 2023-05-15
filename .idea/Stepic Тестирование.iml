@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/section_3/3_4/.pytest_cache/v" />
       <excludeFolder url="file://$MODULE_DIR$/section_3/3_5/.pytest_cache/v" />
       <excludeFolder url="file://$MODULE_DIR$/environments" />
+      <excludeFolder url="file://$MODULE_DIR$/section_3/3_6/source" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (Stepic Тестирование)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
